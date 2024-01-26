@@ -272,7 +272,7 @@ echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
 
 sleep 10
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=OpenWrt
 
 uci commit system
 
